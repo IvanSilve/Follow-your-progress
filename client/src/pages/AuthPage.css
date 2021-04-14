@@ -1,0 +1,71 @@
+.authPage {
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: center;
+}
+.authCard_title {
+
+}
+.authCard {
+    text-align: start;
+    height: 310px;
+    padding: 20px 20px;
+    background-color: #37474f;
+    color: white;
+}
+.authCard span {
+    font-size: 3.4rem;
+}
+.authCard .inputField {
+    position: relative;
+    font-size: 2rem;
+}
+.authCard .inputField input {
+    font-size: 1.4rem;
+    height: 30px;
+    margin: 35px 0 20px 0;
+    min-width: 50%;
+    background-color: inherit;
+    color: white;
+    border: none;
+    border-bottom: 1px solid white;
+}
+.authCard .inputField input:focus {
+    border: none;
+    outline: none;
+}
+span + .inputField{
+    margin-top: 25px;
+}
+.authCard label {
+    position: absolute;
+    left: 2px;
+    top: 5px;
+}
+.warning {
+    color: red;
+    font-size: 1.45rem;
+    position: absolute;
+    left: 0;
+    bottom: -5px;
+}
+.authCard_action {
+    margin-top: 30px;
+}
+.authCard_action button {
+    background-color: inherit;
+    color: white;
+    border: 1px solid white;
+    height: 30px;
+    width: 120px;
+    cursor: pointer;
+    margin-right: 15px;
+    outline: none;
+    border-radius: 2px;
+}
+.authCard_action button:hover {
+    background-color: rgba(255,255,255,0.2);
+}
+.authCard_action button:active {
+    transform: translateY(1px) translateX(1px);
+}

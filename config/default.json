@@ -1,0 +1,5 @@
+{
+  "port": 5900,
+  "jwtSecret": "keep calm and do what you do",
+  "mongoUri": "mongodb+srv://Vacone:RwaQhRIXP4pInY3x@cluster0.fp3ps.mongodb.net/CheckYourProgress?retryWrites=true&w=majority"
+}
